@@ -1,2 +1,4 @@
 # opengl-tutorial-org
-some examples that I'm following through
+some examples of opengl that I'm following through.
+
+[opengl-tutorial](https://www.opengl-tutorial.org/)
