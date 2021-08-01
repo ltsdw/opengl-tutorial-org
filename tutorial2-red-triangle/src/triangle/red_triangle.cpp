@@ -133,5 +133,10 @@ int main(int argc, char* argv[])
     } // check if the ESC key was pressed or the window was closed
     while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && !glfwWindowShouldClose(window));
 
+	// Cleanup VBO
+	glDeleteBuffers(1, &vertex_buffer);
+	glDeleteVertexArrays(1, &vertex_array_id);
+	glDeleteProgram(program_id);
+
     return EXIT_SUCCESS;
 }
