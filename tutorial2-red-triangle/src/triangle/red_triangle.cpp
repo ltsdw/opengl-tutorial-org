@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 
     // profiling to the window
     glfwWindowHint(GLFW_SAMPLES, 4); // 4x antialising
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); // opengl 3.3
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); // opengl 4.6
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // we don't want old opengl
 
